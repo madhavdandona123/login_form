@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(67, 53, 36);
+    /* background-color: bisque; */
+}
+.frm{
+color: white;
+background-color: black;
+display: flex;
+justify-content: center;
+align-content: center;
+border: 3px solid black;
+border-radius: 10px;
+box-shadow: 2px 5px 10px yellow;
+}
+
+.okie{
+left: 10px;
+top: 100px;
+top: 100px;
+margin-top: 58px;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+border: 3px solid yellow;
+border-radius: 10px;
+
+margin: 74px 250px;
+padding: 38px;
+}
+
+
+
+.inp{
+left: 20px;
+display: flex;
+
+
+padding: 12px;
+margin: 0px;
+color: bisque;
+font-size: 20px;
+width: 221px;
+}
+
+.inpi{
+left: 100px;
+display: flex;
+justify-content: center;
+align-content: center;
+width: 221px;
+
+}
+.btnn{ 
+width: auto;
+margin: 41px;
+padding: 15px;
+
+}
+.btn{
+cursor: pointer ;
+width: 119px;
+height: 35px;
+font-size: 16px;
+font-family: none;
+margin: 15px;
+color: white;
+background-color: #3f3526;
+border: 3px solid yellow;
+border-radius: 5px;
+
+}
+
+.btnn:hover{
+
+    border-radius: 5px;
+}
+
+
+.btn:hover {
+
+transition: all 3s ease-in-out;
+
+width: 250px;
+height: 100px;
+font-size: 25px ;
+border-radius: 10px;
+
+
+}
